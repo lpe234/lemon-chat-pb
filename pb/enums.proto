@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package enums;
+
+option java_package = "xyz.lpe234.lemonchat.pb";
+option java_outer_classname = "OpType";
+
+
+enum OpType {
+  SIGN_IN = 0;
+  SIGN_OUT = 1;
+  MSG = 2;
+}
